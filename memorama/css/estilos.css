@@ -1,0 +1,185 @@
+ * {
+ 	margin-top: 0;
+ 	box-sizing: border-box;
+ }
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+.contenido {
+	width: 95%;
+	margin: auto;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+.titulo {
+	border: solid black 1px;
+	width: 40%;
+	height: 55px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.titulo p {
+	text-align: center;
+	margin-top: 12px;
+	font-family: "Arial";
+	font-size: 35px;
+}
+
+.oportunidades-Div {
+	border: solid red 1px;
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	display: flex;
+} 
+
+.oportunidades-Div p {
+	margin-top: 15px;
+	padding-left: 10px;
+	font-family: "Arial";
+	font-size: 25px;
+}
+
+#oportunidades {
+	margin-top: 5px;
+	border: solid black 1px;
+	width: 50px;
+	height: 50px;
+}
+
+#oportunidades p {
+	margin-top: 10px;
+	padding-left: 16px;
+	font-family: "Arial";
+	font-size: 25px;
+}
+
+
+#oportunidades {
+	position: absolute;
+	margin-left: 200px;
+}
+
+
+.item {
+	
+	background-color: #000;
+	border: solid black 2px;
+	width: 270px;
+	height: 170px;
+	margin-top: 30px;
+	margin-left: 40px;
+	cursor: pointer;
+	display: inline-grid;
+	grid-template-columns: repeat(4fr);
+	position: relative;
+}
+
+.item i {
+	margin: auto;
+	font-size: 120px;
+	color: #fff;
+}
+
+ img {
+ 	position: absolute;
+ 	width: 270px;
+ 	height: 170px;
+	opacity: 0;
+	transition: .5s;
+ }
+
+img.active {
+	opacity: 1;
+	pointer-events:none; 
+}
+
+img.deshabilitar {
+	pointer-events:none; 
+}
+
+/*AVISOS --------------------------*/
+
+.aviso-perdiste {
+	position: relative;
+	border: solid black 1px;
+	height: 600px;
+	width: 65%;
+	margin: auto;
+	margin-top: -580px;
+	padding-top: 15px;
+	background-color: #000;
+	font-size: 40px;
+	color: #fff;
+	font-family: Arial;
+	opacity: .9;
+	display: none;
+}
+
+.aviso-perdiste.active {
+	display: block;
+}
+
+.aviso-perdiste p {
+	text-align: center;
+}
+
+
+
+.footer {
+
+	width: 50px;
+	margin-top: 470px;
+	margin-left: 400px;
+}
+
+.footer i {
+	color: #fff;
+	font-size: 55px;
+}
+
+.loss-img {
+	cursor: pointer;
+	width: 600px;
+	height: 400px;
+	margin-left: 130px;
+	pointer-events:none; 
+}
+
+/*------------------------------*/
+.aviso-ganaste {
+	position: relative;
+	border: solid black 1px;
+	height: 600px;
+	width: 65%;
+	margin: auto;
+	margin-top: -580px;
+	padding-top: 15px;
+	background-color: #000;
+	font-size: 40px;
+	color: #fff;
+	font-family: Arial;
+	opacity: .9;
+	display: none;
+}
+
+.aviso-ganaste.active {
+	display: block;
+}
+
+.aviso-ganaste p {
+	text-align: center;
+}
+
+.win-img {
+	cursor: pointer;
+	width: 600px;
+	height: 400px;
+	margin-left: 130px;
+	pointer-events:none; 
+}
